@@ -20,7 +20,7 @@ VueRouter.prototype.push = function push(location) {
   return originalPush.call(this, location).catch(err => err)
 }
 
-// 动态路由 参数都是由编程式导航的url 携带过来的params参数
+// 动态路由 参数都是由编程式导航的url 携带过来的params参数--动态路由的props有三种配置方式
 const routes = [
   { 
     path: '/',
