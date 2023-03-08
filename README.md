@@ -1,5 +1,5 @@
 
-# Ginblog（项目已完成，欢迎使用)
+# Gingormblog（项目已完成，欢迎使用)
 
 ## 重要更新
 
@@ -64,13 +64,13 @@ babel.config.js : 在这里配置本项目需要使用的antui(按需引入)
 1. 克隆项目
 
 ```shell
-git clone https://github.com/CUMTB-wangru/ginblog
+git clone https://github.com/CUMTB-wangru/gingormblog
 ```
 
 2. 转到下面文件夹下
 
 ```shell
-cd yourPath/ginbolg
+cd yourPath/gingormbolg
 ```
 
 3. 安装依赖
@@ -334,9 +334,9 @@ mysql>
 # 之后就和一般情况下mysql的操作一样了。
 ```
 
-### 制作ginblog项目镜像
+### 制作gingormblog项目镜像
 
-- 首相要拉取我们的ginblog项目
+- 首相要拉取我们的gingormblog项目
 
 ```shell
 # 新建一个项目文件夹，在你认为任何适合的地方都可以
@@ -366,7 +366,7 @@ EXPOSE 3000
 ENTRYPOINT ["./ginblog"]
 ```
 
-- 配置ginblog的config
+- 配置gingormblog的config
 
 ```ini
 # config/config.ini
@@ -405,11 +405,11 @@ $ npm run build
 
 ### 生成镜像
 
-最后一步，就是生成我们的ginblog docker image了，这部很简单，运行下列命令
+最后一步，就是生成我们的gingormblog docker image了，这部很简单，运行下列命令
 
 ```shell
-$ docker build -t ginblog .
-$ docker run -d -p 3000:3000 --name ginblog ginblog
+$ docker build -t gingormblog .
+$ docker run -d -p 3000:3000 --name gingormblog gingormblog
 
 #这样访问服务器IP:3000 就可以访问网站了
 ```
