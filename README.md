@@ -161,24 +161,6 @@ http://localhost:3000/admin
     - moment
 - MySQL version:8.0.21
 
-## 项目预览
-
-- 前端展示页面
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/front1.png)
-
-- 前端展示页面
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/front2.png)
-
-- 后台登录页面
-
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/admin.jpg
-  )
-
-- 后台管理页面
-
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/admin2.jpg)
-
-
 ## Docker部署
 
 ### 一、如何安装docker
