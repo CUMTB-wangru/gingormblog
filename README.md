@@ -11,9 +11,6 @@
 
 - 增加了展示页面的移动端适配
 
-  <img src="https://gitee.com/wejectchan/ginblog/raw/master/upload/mobile.png" width="250px" />
-
-  <img src="https://gitee.com/wejectchan/ginblog/raw/master/upload/mobile2.png"  width="250px" />
 
 ## 介绍
 
@@ -438,7 +435,3 @@ $ docker run -d -p 3000:3000 --name ginblog ginblog
 
 #这样访问服务器IP:3000 就可以访问网站了
 ```
-
-## Thanks for free JetBrains Open Source license
-
-感谢JetBrains免费开源授权
