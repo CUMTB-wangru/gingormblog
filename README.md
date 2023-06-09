@@ -1,19 +1,5 @@
 
-# Ginblog（项目已完成，欢迎使用)
-
-## 重要更新
-
-- 上传七牛服务器区域配置，现在在 `config/config.ini` 下可以配置七牛对象存储的服务器区域，配置更方便。
-
-- 取消后台页面新增文章中上传图片为“必填”的限制，避免在配置七牛云上传不成功时报错。
-
-- 修改静态资源托管路径，前端项目下直接打包，不用再移动到static目录下，更加方便。
-
-- 增加了展示页面的移动端适配
-
-  <img src="https://gitee.com/wejectchan/ginblog/raw/master/upload/mobile.png" width="250px" />
-
-  <img src="https://gitee.com/wejectchan/ginblog/raw/master/upload/mobile2.png"  width="250px" />
+# Gingormblog（项目已完成，欢迎使用)
 
 ## 介绍
 
@@ -67,13 +53,13 @@ babel.config.js : 在这里配置本项目需要使用的antui(按需引入)
 1. 克隆项目
 
 ```shell
-git clone https://github.com/CUMTB-wangru/ginblog
+git clone https://github.com/CUMTB-wangru/gingormblog
 ```
 
 2. 转到下面文件夹下
 
 ```shell
-cd yourPath/ginbolg
+cd yourPath/gingormbolg
 ```
 
 3. 安装依赖
@@ -130,10 +116,6 @@ http://localhost:3000/admin
 默认管理员:admin  密码:123456
 ```
 
-enjoy~~~~
-
-#### ==使用、二开过程中，发现问题或者有功能需求欢迎提交 `Iusse` 或者直接 `PR`==
-
 ## 实现功能
 
 1. 简单的用户管理权限设置
@@ -167,24 +149,6 @@ enjoy~~~~
     - tinymce
     - moment
 - MySQL version:8.0.21
-
-## 项目预览
-
-- 前端展示页面
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/front1.png)
-
-- 前端展示页面
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/front2.png)
-
-- 后台登录页面
-
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/admin.jpg
-  )
-
-- 后台管理页面
-
-  ![](https://gitee.com/wejectchan/ginblog/raw/master/upload/admin2.jpg)
-
 
 ## Docker部署
 
@@ -359,9 +323,9 @@ mysql>
 # 之后就和一般情况下mysql的操作一样了。
 ```
 
-### 制作ginblog项目镜像
+### 制作gingormblog项目镜像
 
-- 首相要拉取我们的ginblog项目
+- 首相要拉取我们的gingormblog项目
 
 ```shell
 # 新建一个项目文件夹，在你认为任何适合的地方都可以
@@ -391,7 +355,7 @@ EXPOSE 3000
 ENTRYPOINT ["./ginblog"]
 ```
 
-- 配置ginblog的config
+- 配置gingormblog的config
 
 ```ini
 # config/config.ini
@@ -430,15 +394,11 @@ $ npm run build
 
 ### 生成镜像
 
-最后一步，就是生成我们的ginblog docker image了，这部很简单，运行下列命令
+最后一步，就是生成我们的gingormblog docker image了，这部很简单，运行下列命令
 
 ```shell
-$ docker build -t ginblog .
-$ docker run -d -p 3000:3000 --name ginblog ginblog
+$ docker build -t gingormblog .
+$ docker run -d -p 3000:3000 --name gingormblog gingormblog
 
 #这样访问服务器IP:3000 就可以访问网站了
 ```
-
-## Thanks for free JetBrains Open Source license
-
-感谢JetBrains免费开源授权
